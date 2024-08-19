@@ -1,0 +1,122 @@
+[voice_phishing_12]
+ 네. 녹취 중에는 자금이나 제3자 목소리가 개입되면 안 되고
+ 지금 수사 중인 사건이어서 수사 종료되기 전까지 제3자에게 사건 내용에 대해서 이해하셨나요?
+ 네. 알겠습니다.
+ 지금 현재 전화 받고 계신 곳이 학교이신가요? 아니면 자택이세요?
+ 네. 지금 자택입니다.
+ 네. 왜냐하면 녹취 상태에서는 지금 OO께서 말씀하신 모든 부분은 녹취 기록에 남길 거고
+ 본인을 대신하여 증거 자료로 채택.
+ 그러시면 지금부터는 제가 사건 내용에 대해서 구체적으로 설명을 드리겠습니다.
+ 사건은 지금 강기석 교회 6명으로 구성된 금융범죄 사기사고 2명은 미검거 상태로 진행 중인 사건이라고 먼저 말씀을 드립니다.
+ 네. 이 사건은 지금 중고거래사의 물건을 저가에 판매한다는 게시글을 올려놓고
+ 지금 물건을 안 주고 금품을 편취한 사건.
+ 지금 압수수색 당시 현장에서 OO 명의로 개설된 통장, 체크카드 각각 2종과 유조된 복제폰이 포함됐습니다.
+ 그리고 혹시 중고거래가 이루어졌다는 사이트가 어딘지 알 수 있을까요?
+ OO 사이트에 명의를 안 했을 걸 가입했다는 건가요?
+ 아니요.
+ 아니면은 그분의 명대 이용해서 거래를 제출을 못했다는 건가요?
+ 그러니까 이제 그 본인 명의로 대포통장하고 복제폰을 만들어서 사기를 취했다는 말씀이세요?
+ 그래서 제가 어느 통장이 있는지 알 수 있을까요? 제가 지금 그걸 조회할 수 있어서요.
+ 네. 그 OO 은행하고 OO 은행인데요.
+ 이거는 본인도 아시겠지만 본인이 은행에 출석을 안 하시면 은행에서 이거 개설을 안 해주시잖아요.
+ 아니요. 지금 이거 핸드폰으로 확인할 수 있어서요.
+ 지금 계좌번호가
+ 그건 제가 공문으로 발송해드릴게요.
+ 본인이 뭐 휴대폰으로 조사를 하시겠습니까?
+ 조사를 하시겠다는데 통장이 지금 저희 검찰에서 동결 처리를 시켰는데 본인이 어떻게 조사를 하시겠어요?
+ 일단 제가 OO랑 OO이 계좌에 돈을 한 번 지금 동결 처리가 됐다고요?
+ 지금 방금 전에 거래가 됐는데
+ 제 명의로 개설된 통장에 방금 전에 돈이 들어갔는데 동결이 된 거에 돈이 들어갈 수가 있나요?
+ 제가 잘 몰라서요.
+ 말씀을 잘 이해를 못해요. 대포통장이라는 게 본인 지금 어떻게
+ 대포통장이라고 하면은 제가 제 명의가 아닌 다른 사람의 명장으로 만든 거 아닙니까?
+ OO는요.
+ 다른 사람이 지금 본인 명의를 가지고 지금 가짜서 본인이 은행에 출석을 안 하시는데 본인 명의로 어떻게 계좌를 개설을 하시겠어요?
+ 이러면 계좌 개설이 가능한지 아니까요?
+ 그러니까 제가 가짜 통장을 만드셨단 말씀을 하셨잖아요.
+ 은행에서 개설하신 게 아니시라
+ 명의가 지금 본인 명의이기 때문에 지금 제가 검찰청에서 연락을 드린 거 아니십니까?
+ 본인이 지금 말씀 너무 많으신데 제가 본인 앞으로 소환장을 좀 발부해드릴게요.
+ 나와서 본인도 한번 확인해보시고 조사를 해보시고 한번 조사받아보세요.
+ 네 언제쯤 가면 될까요?
+
+[village]
+ 한적한 이 마을에 봄천여가 울려 퍼집니다.
+ 마을의 푸른 하늘, 뭉개구름이 흐릅니다.
+ 광화문은 마을의 중심지입니다.
+ 확트인 바다, 삶의 터전이 되었습니다.
+ 가축들도 이 마을의 구성원입니다.
+ 사냥을 즐기는 여유로움도 있습니다.
+ 젊은 아낙네들이 일을 마치고 자리를 떠납니다.
+ 광화문 앞에는 소풍원 아이들이 사진을 찍습니다.
+ 언덕 위에 상징성 있는 석탑도 세웠습니다.
+ 나무를 세워 조경도 꾸몄습니다.
+ 뒷동산에는 아름다운 꽃밭도 꾸몄습니다.
+ 마을과 마을을 연결해주는 배는 이 마을의 교통수단입니다.
+ 이제 마을 구경 한번 해볼까요?
+ 어때요? 만료된 저작권과 나눔을 통해 만들어진 이 마을에
+ 살고 싶지 않나요?
+ 자유이용 사이트를 통해 당신만의 세상을 만들어보세요.
+
+[John_F_Kennedy_Speech]
+ I am proud to come to this city as the guest of your distinguished mayor, who has symbolized
+ throughout the world the fighting spirit of West Berlin.
+ And I am proud to visit the Federal Republic with your distinguished Chancellor, who for
+ so many years has committed Germany to democracy and freedom and progress, and to come here
+ to see you.
+ Thank you.
+ In the company of my fellow American, General Clay, who has been in this city during its
+ great moments of crisis and will come again if ever needed.
+ 2,000 years ago, 2,000 years ago, the proudest boast was,
+ Today, in the world of freedom, the proudest boast is,
+ Ich bin ein Berliner.
+ Thank you.
+ There are many people in the world who really don't understand, or say they don't, what
+ is the great issue between the free world and the communist world.
+ Let them come to Berlin.
+ There are some who say, there are some who say, that communism is the wave of the future.
+ Let them come to Berlin.
+ And there are some who say, in Europe and elsewhere, we can work with the communists.
+ Let them come to Berlin.
+ And there are even a few who say that it's true that communism is an evil system, but
+ it permits us to make economic progress.
+ Lass sie nach Berlin in kommen.
+ Let them come to Berlin.
+ Freedom has many difficulties, and democracy is not perfect.
+ But we have never had to put a wall up to keep our people in, to prevent them from leaving
+ us.
+ I want to say on behalf of my countrymen, who live many miles away on the other side
+ of the Atlantic, who are far distant from you, that they take the greatest pride that
+ they have been able to share with you, even from a distance, the story of the last 18
+ years.
+ I know of no town, no city, that has been besieged for 18 years, that still lives with
+ the vitality and the force and the hope and the determination of the city of West Berlin.
+ While the wall is the most obvious and vivid demonstration of the failures of the communist
+ system, for all the world to see, we take no satisfaction in it, for it is, as your
+ mayor has said,
+ an offense not only against history, but an offense against humanity, separating families,
+ dividing husbands and wives and brothers and sisters, and dividing a people who wish to
+ be joined together.
+ What is true of this city is true of Germany.
+ Real, lasting peace in Europe can never be assured.
+ As long as one German out of four is denied the elementary right of free men, and that
+ is to make a free choice, in 18 years of peace and good faith, this generation of Germans
+ has earned the right to be free, including the right to unite their families and their
+ nation.
+ In lasting peace, with good will to all people.
+ You live in a defended island of freedom, but your life is part of the main.
+ So let me ask you as I close, to lift your eyes beyond the dangers of today, to the hopes
+ of tomorrow, and to the hopes of the future.
+ Beyond the freedom merely of this city of Berlin, or your country of Germany, to the
+ advance of freedom everywhere, beyond the wall, to the day of peace with justice, beyond
+ yourselves and ourselves, to all mankind, freedom is indivisible, and when one man is
+ enslaved, all are not free.
+ When all are free, then we look and look forward to that day when this city will be
+ joined as one, and this country, and this great continent of Europe in a peaceful and
+ hopeful globe.
+ When that day finally comes, as it will, the people of West Berlin can take sober satisfaction
+ in the fact that they were in the front lines.
+ For almost two decades.
+ All free men, wherever they may live, are citizens of Berlin, and therefore, as a free
+ man, I take pride.
+ In the words, Ich bin ein Berliner.
