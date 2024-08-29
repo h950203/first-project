@@ -1,9 +1,14 @@
 from paddleocr import PaddleOCR
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageEnhance, ImageFilter
+import cv2
 import numpy as np
 import glob
 import os
 import openpyxl
+import pytesseract
+import logging
+
+logging.getLogger('ppocr').setLevel(logging.ERROR)
 
 # PaddleOCR 리더 생성 (한글 'korean' 설정)
 ocr = PaddleOCR(lang='korean')
@@ -38,7 +43,7 @@ def image_check(image, region):
     result = ocr.ocr(cropped_image_np, cls=True)
 
     if result[0] is None:
-        result[0] = [[[[1.0, 5.0], [38.0, 5.0], [36.0, 317.0], [0.0, 316.0]], ('숫자', 0.6102153658866882)]]
+        result[0] = [[[[1.0, 5.0], [38.0, 5.0], [36.0, 317.0], [0.0, 316.0]], ('숫자', 0.6)]]
     
     # PIL의 이미지를 수정하기 위한 객체 생성
     draw = ImageDraw.Draw(image)
@@ -71,6 +76,60 @@ def image_check(image, region):
     
     return text_num, text_num2
 
+
+def image_check_single(image, region):
+    width, height = image.size
+
+    # 영역 설정 (우측 하단, 중간 하단, 좌측 하단)
+    if region == 'right':
+        region_x = int(width * 0.75)
+        region_y = int(height * 0.75)
+        cropped_image = image.crop((region_x, region_y, width, height))
+    elif region == 'center':
+        region_x = int(width * 0.25)
+        region_y = int(height * 0.75)
+        cropped_image = image.crop((region_x, region_y, region_x + int(width * 0.5), height))
+    elif region == 'left':
+        region_x = 0
+        region_y = int(height * 0.75)
+        cropped_image = image.crop((region_x, region_y, region_x + int(width * 0.25), height))
+
+    # 이미지 전처리 강화
+    gray_image = cropped_image.convert('L')
+    enhancer = ImageEnhance.Contrast(gray_image)
+    enhanced_image = enhancer.enhance(2)
+    filtered_image = enhanced_image.filter(ImageFilter.MedianFilter())
+
+    # OCR 수행 (여러 설정으로 시도)
+    configs = [
+        r'--oem 3 --psm 6 -c tessedit_char_whitelist=0123456789',
+        r'--oem 3 --psm 7 -c tessedit_char_whitelist=0123456789',
+        r'--oem 3 --psm 8 -c tessedit_char_whitelist=0123456789',
+        r'--oem 3 --psm 13 -c tessedit_char_whitelist=0123456789'
+    ]
+
+    text_num = False
+    text_num2 = False
+
+    for config in configs:
+        text = pytesseract.image_to_string(filtered_image, config=config)
+        lines = text.splitlines()
+
+        for line in lines:
+            # 결과 정제
+            cleaned_line = ''.join(filter(str.isdigit, line))
+            if cleaned_line:
+                try:
+                    if int(cleaned_line) == int(filename):
+                        print(f"{int(filename)}에서 파일명과 동일한 {cleaned_line}을 찾았습니다.")
+                        text_num = True
+                        text_num2 = True
+                        return text_num, text_num2
+                except ValueError:
+                    pass
+
+    return text_num, text_num2
+
 well_files = []     # 올바른 파일 리스트를 저장할 리스트
 rotate_files = []   # 회전이 일어난 파일 리스트를 저장할 리스트
 rotate_angles = []  # 회전이 일어난 각도 리스트를 저장할 리스트
@@ -81,13 +140,18 @@ regions = ['right', 'center', 'left']
 for image_path in image_paths:
     image = Image.open(image_path)
     filename = os.path.splitext(os.path.basename(image_path))[0]
+    filename_non_zero = filename.lstrip('0')
 
     text_detected = False  #z text_detected 변수를 루프 시작 시 초기화
 
     for region in regions:
         for angle in [0, 90, 180, 270]:  # 90도씩 회전하며 검사
             rotated_image = image.rotate(angle, expand=True)
-            image_check_num, image_check_num2 = image_check(rotated_image, region)
+            
+            if len(filename_non_zero)<2:
+                image_check_num, image_check_num2 = image_check_single(rotated_image, region)
+            else:
+                image_check_num, image_check_num2 = image_check(rotated_image, region)
             
             if image_check_num:
                 output_path = os.path.join(output_folder, os.path.basename(image_path))
