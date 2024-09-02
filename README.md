@@ -1,3 +1,11 @@
+# Summarization
+## 모델 파일
+summarization_train.py : KoBART 요약 모델 학습 파일<br>
+summarization_inference.py : KoBART 요약 모델 추론 파일<br>
+불용어_신문기사.txt : 학습에 사용하는 불용어 리스트<br>
+키워드_신문기사.txt : 학습에 사용하는 키워드 리스트<br>
+<br>
+
 # STT
 ## 모델 파일
 whisper_v1.py : 기존의 whisper 모델 구동 파일<br>
