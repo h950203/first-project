@@ -20,6 +20,3 @@ sample_v2_result.txt : 개량한 whisper 모델 구동 결과 파일<br>
 # ML
 portfolio_credit.ipynb : 고객 신용 정보 머신 러닝 파일<br>
 <br><br>
-
-# OCR
-rotate_number_check.py : paddleOCR, tesseractOCR 기반 페이지 인식 OCR 모델 파일
